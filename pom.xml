@@ -11,9 +11,9 @@
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 		<weka.version>[3.8.0,)</weka.version>
-		<jflat.version>1.3.1-SNAPSHOT</jflat.version>
+		<jflat.version>1.3.6</jflat.version>
 		<junit.version>4.13</junit.version>
-		<slf4j.version>1.7.31</slf4j.version>
+		<slf4j.version>1.7.32</slf4j.version>
 	</properties>
 
 	<dependencies>
@@ -33,6 +33,12 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
